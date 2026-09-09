@@ -1,12 +1,25 @@
 import type { Metadata } from 'next';
 import { NextIntlClientProvider } from 'next-intl';
-import { getLocale, getMessages } from 'next-intl/server';
+import { getLocale, getMessages, getTranslations } from 'next-intl/server';
 import './globals.css';
 
-export const metadata: Metadata = {
-  title: 'Fences – 358 High-Security Anti-Climb Fencing | Elering Type B',
-  description: 'Professional 358 anti-climb welded mesh fencing systems compliant with Elering Type B / HF358E266307A. Hot-dip galvanized, posts, razor wire, gates. Installation partner Forstal OÜ.',
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const locale = await getLocale();
+  const t = await getTranslations({ locale, namespace: 'Meta' });
+  const languages: Record<string, string> = {
+    et: '/',
+    en: '/en',
+  };
+
+  return {
+    title: t('title'),
+    description: t('description'),
+    alternates: {
+      canonical: locale === 'en' ? '/en' : '/',
+      languages,
+    },
+  };
+}
 
 export default async function RootLayout({ children }: { children: React.ReactNode }) {
   const locale = await getLocale();

@@ -1,14 +1,27 @@
 {
+  "Meta": {
+    "title": "Ronimiskindel 358 paneelaed | kõrge turvalisusega piirdeaed",
+    "description": "Tiheda silmaga keevispaneelaed: ronimis- ja lõikekindel. Paneelid, postid, turvaväravad ja teraokastraat. Küsi hinnapakkumist."
+  },
   "Home": {
-    "heroTitle": "358 high-security anti-climb turvaaiad",
-    "heroSubtitle": "Elering Type B / HF358E266307A vastavad keevisvõrk-paneelid. Hot-dip galvaniseeritud. Paigaldus Forstal OÜ kaudu.",
+    "badge": "Objektidele ja tööstusperimeetrile",
+    "heroTitle": "Ronimiskindel 358 paneelaed objektidele",
+    "heroSubtitle": "Kõrge turvalisusega keevispaneelaed tiheda silmaga. Täissüsteem: paneelid, postid, turvaväravad ja paigaldus.",
     "ctaQuote": "Küsi pakkumist",
-    "ctaSpecs": "Tehnilised andmed",
-    "productTitle": "Toode lühidalt",
-    "caseTitle": "Juhtum: Elering Balti alajaam",
-    "caseBody": "Kõrge turvalisusega perimeeter kriitilisele energiainfrastruktuurile – 358 mesh + väravad.",
+    "ctaSpecs": "Toote ülevaade",
+    "productTitle": "Miks see piirdeaed töötab",
+    "card1Title": "Tihe keevispaneel",
+    "card1Body": "Silm 76,2 × 12,7 mm, 4 mm traat — ronimiskindel ja lõikekindel, sõrmehaaret ei ole.",
+    "card2Title": "Kuumtsingitud viimistlus",
+    "card2Body": "Pikaealine korrosioonikaitse põhjamaisesse kliimasse. Soovi korral pulbervärv.",
+    "card3Title": "Täissüsteem ja paigaldus",
+    "card3Body": "Paneelid, postid, teraokastraat või concertina, tiib- või liugvärav. Paigaldus ühe paketina.",
+    "caseTitle": "Objektinäide: alajaama perimeeter",
+    "caseBody": "Tööstuslik piirdeaed alajaamale — üleronimiskindel keevispaneel, postid ja turvaväravad ühes süsteemis.",
+    "caseCaption": "Energiaobjekti perimeeter",
     "contactTitle": "Võta ühendust",
-    "contactBody": "Saada päring hinnapakkumise, andmelehe või partnerluse kohta.",
-    "ctaEmail": "Saada e-kiri"
+    "contactBody": "Saada päring hinnapakkumise, andmelehe või koostöö kohta.",
+    "ctaEmail": "Saada e-kiri",
+    "footer": "Kõrge turvalisusega piirdeaiad · keevispaneel, postid ja turvaväravad · ET / EN"
   }
 }
